@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    tools:context=".GuessCountry">
+
+    <TextView
+        android:id="@+id/timer_lbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="16sp"
+        android:layout_marginStart="20dp" />
+
+    <ImageView
+        android:id="@+id/flag_img"
+        android:layout_below="@id/timer_lbl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="8dp"
+        android:adjustViewBounds="true"
+        tools:srcCompat="@tools:sample/avatars" />
+
+
+    <TextView
+        android:id="@+id/select_lbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/flag_img"
+        android:layout_marginStart="23dp"
+        android:layout_marginLeft="23dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="23dp"
+        android:layout_marginRight="23dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/select_country"
+        android:textSize="18sp" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/select_lbl"
+        android:gravity="bottom"
+        android:layout_marginStart="18dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginRight="18dp" />
+
+
+
+    <TextView
+        android:id="@+id/answer_status_lbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spinner"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:gravity="center"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/correct_answer_lbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/answer_status_lbl"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:gravity="center"
+        android:text=""
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="50dp"
+        android:gravity="center"
+        android:text="@string/submit"
+        android:textSize="18sp"
+        android:background="@drawable/btn_style"
+        android:textAllCaps="false"
+        android:textColor="@color/white"/>
+</RelativeLayout>

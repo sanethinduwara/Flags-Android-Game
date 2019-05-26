@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Flags</string>
+    <string name="next">Next</string>
+    <string name="submit">Submit</string>
+    <string name="correct">CORRECT!</string>
+    <string name="wrong">WRONG!</string>
+    <string name="select_country">Select Country</string>
+    <string name="guess_character">Guess Character :</string>
+    <string name="guess_all_flags">Guess Countries for All Flags :</string>
+    <string name="flag_1">Flag 1 :</string>
+    <string name="flag_2">Flag 2 :</string>
+    <string name="flag_3">Flag 3 :</string>
+    <string name="guess_the_flag_1">Guess the Flag 1</string>
+    <string name="guess_the_flag_2">Guess the Flag 2</string>
+    <string name="guess_the_flag_3">Guess the Flag 3</string>
+    <string name="pick_flag_for_country">Pick Flag for Country :</string>
+    <string name="countdown">Countdown</string>
+    <string name="guess_hints">Guess Hints</string>
+    <string name="guess_the_flag">Guess the Flag</string>
+    <string name="advanced_level">Advanced Level</string>
+    <string name="guess_the_country">Guess the Country</string>
+</resources>
